@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+mock/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp
+logs/
+*.log
+tmp/
+.cache/
+.prof/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+
+# App/runtime artifacts
+runs/
+outputs/
+artifacts/
+checkpoints/
+data/private/
+data/**/*.parquet
+data/**/*.feather
+
+# Node (if any UI parts)
+node_modules/
+*.tsbuildinfo
+
+# Docker
+*.pid
+*.pid.lock
+
+# OS trash
+$RECYCLE.BIN/
+*.tmp
+
+# Test/typing caches
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Models and large binaries
+*.bin
+*.pt
+*.onnx
+*.ckpt
+
+# Misc
+coverage.xml
