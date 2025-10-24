@@ -41,7 +41,7 @@ Evaluate retrieval and QA backends through a Streamlit dashboard and a batch eva
 
 ## Dataflow diagram
 
-<img src="https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/assets/your-image.png" width="600"/>
+![My Image](data/diagram-export-25-10-2025-02_06_10.png)
 
 
 ---
