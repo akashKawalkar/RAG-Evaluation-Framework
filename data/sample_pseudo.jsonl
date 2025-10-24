@@ -1,0 +1,10 @@
+{"id": "q1", "query": "What is the waiting period for maternity coverage?", "relevant_chunks": ["pol_maternity_01", "pol_wait_90d"], "slice": "waiting_periods", "metadata": {"policy": "HealthPlus A"}}
+{"id": "q2", "query": "Does the plan cover cashless hospitalization?", "relevant_chunks": ["net_cashless_intro", "net_provider_rules"], "slice": "network/cashless", "metadata": {"policy": "HealthPlus A"}}
+{"id": "q3", "query": "Are pre-existing diseases covered from day 1?", "relevant_chunks": ["exclusions_preexisting_wait"], "slice": "exclusions", "metadata": {"policy": "HealthPlus A"}}
+{"id": "q4", "query": "Define day care procedures in this policy.", "relevant_chunks": ["defs_daycare", "defs_treatment_scope"], "slice": "definitions", "metadata": {"policy": "HealthPlus A"}}
+{"id": "q5", "query": "Is OPD coverage included and what are limits?", "relevant_chunks": ["coverage_opd_limits"], "slice": "coverage", "metadata": {"policy": "HealthPlus A"}}
+{"id": "q6", "query": "Are COVID-19 related hospitalizations covered?", "relevant_chunks": ["coverage_covid_general", "exclusions_pandemic_clause"], "slice": "claims", "metadata": {"policy": "HealthPlus A"}}
+{"id": "q7", "query": "What is the network provider onboarding rule?", "relevant_chunks": ["net_provider_rules"], "slice": "network/cashless", "metadata": {"policy": "HealthPlus B"}}
+{"id": "q8", "query": "What is the grace period for premium payment?", "relevant_chunks": ["defs_grace_period"], "slice": "definitions", "metadata": {"policy": "HealthPlus B"}}
+{"id": "q9", "query": "What expenses are excluded during initial 30 days?", "relevant_chunks": ["exclusions_initial30"], "slice": "exclusions", "metadata": {"policy": "HealthPlus B"}}
+{"id": "q10", "query": "Is ambulance cost covered and up to what limit?", "relevant_chunks": ["coverage_ambulance_limit"], "slice": "coverage", "metadata": {"policy": "HealthPlus B"}}

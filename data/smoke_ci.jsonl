@@ -1,0 +1,4 @@
+{"id":"q1","query":"What is coverage for cashless hospitalization?","relevant_chunks":["mock-doc-1","mock-doc-2"],"slice":"network","metadata":{"purpose":"smoke"}}
+{"id":"q2","query":"Are pre-existing conditions excluded?","relevant_chunks":["mock-doc-3"],"slice":"exclusions","metadata":{"purpose":"smoke"}}
+{"id":"q3","query":"What are waiting periods for maternity benefits?","relevant_chunks":["mock-doc-4"],"slice":"waiting_periods","metadata":{"purpose":"smoke"}}
+{"id":"q4","query":"How to file a claim and required documents?","relevant_chunks":["mock-doc-5"],"slice":"claims","metadata":{"purpose":"smoke"}}

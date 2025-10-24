@@ -1,0 +1,6 @@
+{"id": "q-101", "query": "Define policy coverage and exclusions", "relevant_chunks": ["mock-doc-1", "mock-doc-2"], "slice": ["coverage", "exclusions"]}
+{"id": "q-102", "query": "List common policy exclusions", "relevant_chunks": ["mock-doc-2"], "slice": "exclusions"}
+{"id": "q-103", "query": "What is the cashless network?", "relevant_chunks": ["mock-doc-1"], "slice": "network/cashless"}
+{"id": "q-104", "query": "What are waiting periods for claims?", "relevant_chunks": ["mock-doc-3"], "slice": ["waiting_periods", "claims"]}
+{"id": "q-105", "query": "Provide definitions for deductible and copay", "relevant_chunks": ["mock-doc-2"], "slice": "definitions", "gold_answer": null}
+{"id": "q-106", "query": "How to file a claim?", "relevant_chunks": ["mock-doc-1"], "slice": "claims"}

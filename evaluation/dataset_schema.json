@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/rag-dataset.schema.json",
+  "title": "RAG Evaluation Dataset",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "query": { "type": "string" },
+    "relevant_chunks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "gold_answer": { "type": ["string", "null"] },
+    "slice": {
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      ]
+    },
+    "metadata": { "type": ["object", "null"], "additionalProperties": true }
+  },
+  "required": ["id", "query", "relevant_chunks"],
+  "additionalProperties": false
+}
